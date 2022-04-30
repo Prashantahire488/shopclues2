@@ -1,0 +1,27 @@
+.footer{
+    background-color: white;
+    border-bottom: 1px solid #E6DEDE;
+    border-top: 1px solid #E6DEDE;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-content>div>p{
+    text-align: left;
+    color: #494949;
+    margin: 5px;
+}
+
+.footer-content>div>h3{
+    text-align: left;
+}
+
+.footer-content>div>p:hover{
+    color: rgb(8, 206, 255);
+    background-color: white;
+    cursor: pointer;
+}

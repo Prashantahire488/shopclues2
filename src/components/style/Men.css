@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+  }
+  .item-container1 {
+    /* margin:auto; */
+        display: grid;
+        grid-template-columns: repeat(3,33.33%);
+        margin-right: 5%;
+       
+  }
+
+  .items {
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 10%;
+   
+  }
+  .items > img {
+    height: 220px;
+    width: auto;
+  }
+
+  a:hover{
+    color: rgb(8, 206, 255);
+    background-color: white;
+}
+.items:hover
+{
+    display: block;
+    border: 1px solid rgb(0, 195, 255);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* .sort
+{
+    margin-left: 80%;
+    margin-top: 2%;
+} */
+
+
+
+
+
+#mainsection {
+    display: grid;
+    grid-template-columns: 18% 82%;
+   
+}
+#leftsection {
+    padding-left: 10%;
+    padding-top: 15px;
+    border-right: 1px solid #E6DEDE;
+}
+#leftsection > button {
+    font-size:18px;
+}
+#leftsection > h4 {
+    margin-top:20px;
+    margin-bottom:5px
+}
+#leftsection button {
+  
+    color:rgb(128, 0, 81);
+    border-radius:0px;
+    align-items: top;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+#rightsection {
+    display: grid;
+    grid-template-rows: 50px 100%;
+    box-shadow: none;
+}
+
+#rightsection {
+    display: grid;
+    grid-template-rows: 50px 90%;
+}
+
+.price{
+    display: inline-block;
+    margin: 3%;
+}
+.priceoff{
+    display: inline-block;
+    text-decoration: line-through;
+    color:  gray;
+    margin: 3%;
+}
+.discount
+{
+    display: inline;
+    color: rgb(0, 182, 206);
+    font-weight: bold;
+}
+.btn_shop{
+   border-radius: 5%;
+   background-color: black;
+   color: white;
+}
